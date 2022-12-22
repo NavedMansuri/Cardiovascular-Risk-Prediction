@@ -54,7 +54,21 @@ Medical( history):
 
 # ML Model
 
-![ml table](https://user-images.githubusercontent.com/75332345/209081972-92dc3c5d-9c3c-47e9-ac78-75ba1114c283.png)
+![ml classification ](https://user-images.githubusercontent.com/75332345/209082616-aebbfeb1-db14-4919-84bf-18d5ffbeb8ba.png)
+
+# Conclusions
+
+* we trained 5 Machine Learning models, and hyperparameter adjustment was utilised models to increase model performance.​
+
+* The training dataset was oversampled using SMOTE to reduce bias on one outcome, missing values were handled, feature engineering, and feature selection were performed.​
+
+* Cardiovascular heart disease affects a similar number of smokers and non-smokers.​
+
+* Age, total cholesterol, systolic blood and diastolic blood pressure, BMI, heart rate, and glucose are the main factors in determining a person's 10-year chance of having cardiovascular heart disease.​
+
+* The K Nearest Neighbour is proved to be best algorithms can be used for the risk prediction of Cardiovascular heart disease.​
+
+* We chose the oversampling technique because the data provided to us had fewer records. But since there will be a lot of unbalanced and large amounts of health data, we can try to work on cost-sensitive learning, which, rather than changing the data records, only gives more weight to the minority and focuses on the individuals at high risk for heart disease.
 
 
 
