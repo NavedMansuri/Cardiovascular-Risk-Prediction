@@ -1,5 +1,7 @@
 # Cardiovascular-Risk-Prediction
-![images (1)](https://user-images.githubusercontent.com/75332345/208301232-8c469b44-524d-4460-8454-3b8e8d2ea818.png)
+
+![AdobeStock_241906878_optimised](https://user-images.githubusercontent.com/75332345/209083547-591d8da2-8e82-453e-9ef7-eee3066f0e4b.jpg)
+
 
 
 # Project Summary 
