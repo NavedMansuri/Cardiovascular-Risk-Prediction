@@ -52,4 +52,9 @@ Medical( history):
 * Cardiovascular heart disease affects slightly more men than women.​
 * Cardiovascular heart disease affects nearly equal numbers of smokers and non-smokers.​
 
+# ML Model
+
+![ml table](https://user-images.githubusercontent.com/75332345/209081972-92dc3c5d-9c3c-47e9-ac78-75ba1114c283.png)
+
+
 
