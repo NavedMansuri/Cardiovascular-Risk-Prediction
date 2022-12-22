@@ -14,8 +14,11 @@ The classification goal is to predict whether the patient has a 10-year risk of 
 Demographic:
 
 Sex: male or female("M" or "F")
+
 Age: Age of the patients (Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+
 Education: The level of education of the patient (categorical values - 1,2,3,4)
+
 Behavioral:
 
 is_smoking: whether or not the patient is a current smoker ("YES" or "NO")
