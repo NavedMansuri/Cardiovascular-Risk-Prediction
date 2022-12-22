@@ -12,25 +12,44 @@ The classification goal is to predict whether the patient has a 10-year risk of 
 
 # Data discription
 Demographic:
-Sex: male or female("M" or "F")
-Age: Age of the patients (Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
-Education: The level of education of the patient (categorical values - 1,2,3,4)
+
+* Sex: male or female("M" or "F")
+* Age: Age of the patients (Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+* Education: The level of education of the patient (categorical values - 1,2,3,4)
 
 Behavioral:
-is_smoking: whether or not the patient is a current smoker ("YES" or "NO")
-Cigs Per Day: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarettes, even half a cigarette.)
+
+* is_smoking: whether or not the patient is a current smoker ("YES" or "NO")
+* Cigs Per Day: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarettes, even half a cigarette.)
 
 Medical( history):
-BP Meds: whether or not the patient was on blood pressure medication (Nominal)
-Prevalent Stroke: whether or not the patient had previously had a stroke (Nominal)
-Prevalent Hyp: whether or not the patient was hypertensive (Nominal)
-Diabetes: whether or not the patient had diabetes (Nominal) Medical(current)
-Tot Chol: total cholesterol level (Continuous)
-Sys BP: systolic blood pressure (Continuous)
-Dia BP: diastolic blood pressure (Continuous)
-BMI: Body Mass Index (Continuous)
-Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
-Glucose: glucose level (Continuous) Predict variable (desired target)
-10-year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)
 
-Objective: Building the classification model which best predict whether the patient has a 10-year risk of future coronary heart disease (CHD).
+* BP Meds: whether or not the patient was on blood pressure medication (Nominal)
+* Prevalent Stroke: whether or not the patient had previously had a stroke (Nominal)
+* Prevalent Hyp: whether or not the patient was hypertensive (Nominal)
+* Diabetes: whether or not the patient had diabetes (Nominal) Medical(current)
+* Tot Chol: total cholesterol level (Continuous)
+* Sys BP: systolic blood pressure (Continuous)
+* Dia BP: diastolic blood pressure (Continuous)
+* BMI: Body Mass Index (Continuous)
+* Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
+* Glucose: glucose level (Continuous) Predict variable (desired target)
+* 10-year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)
+
+* Objective: Building the classification model which best predict whether the patient has a 10-year risk of future coronary heart disease (CHD).
+
+# EDA
+
+* Dependent variable(Ten year CHD) is binary, its only consist two values 0 or 1.​
+* Ten year CHD is imbalanced with 15% of risk CHD.
+* Female are more compare to male's. ​
+* Equally number of smockers.​
+* Most people are education level 1.
+* Very less number of people having past blood pressure and hark stoke.​
+* 1000+ people having hypertension.​
+* A few peoples suffering from diabetes.​
+* Ages of 45 and 65 have the highest risk of acquiring heart disease​
+* Cardiovascular heart disease affects slightly more men than women.​
+* Cardiovascular heart disease affects nearly equal numbers of smokers and non-smokers.​
+
+
